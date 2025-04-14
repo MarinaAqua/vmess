@@ -25,6 +25,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "20800721-d3fd-4c1f-81fc-a786f10b2f64"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/MarinaAqua/VPN/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/MarinaAqua/VPN/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/MarinaAqua/VPN/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/MarinaAqua/vip/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/MarinaAqua/vip/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/MarinaAqua/vip/refs/heads/master/web/link.html"
