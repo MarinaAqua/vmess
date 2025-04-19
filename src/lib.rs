@@ -65,6 +65,9 @@ async fn sub(_: Request, cx: RouteContext<Config>) -> Result<Response> {
 async fn link(_: Request, cx: RouteContext<Config>) -> Result<Response> {
     get_response_from_url(cx.data.link_page_url).await
 }
+async fn vmess(_: Request, cx: RouteContext<Config>) -> Result<Response> {
+    get_response_from_url(cx.data.vmess_page_url).await
+}
 
 async fn tunnel(req: Request, mut cx: RouteContext<Config>) -> Result<Response> {
     let mut proxyip = cx.param("proxyip").unwrap().to_string();
